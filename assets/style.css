@@ -1,0 +1,299 @@
+/*================ Portfolio Variables ================*/
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+body {
+    background-color: rgb(255, 242, 217);
+    font-family: "Poppins", sans-serif;
+    text-transform: lowercase;
+    margin-bottom: 0px;
+    color: #5f595c;
+    /* background-image: linear-gradient(to right, #4699f7, #18f1b0); */
+  }
+  
+  .balloon {
+    width: 100px;
+    height: 100px;
+    background-image: url("images/hotair-balloon.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    -webkit-animation-name: hotair;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 12s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 20;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate-reverse;
+    /* Safari 4.0 - 8.0 */
+    animation-name: hotair;
+    animation-duration: 12s linear;
+    animation-iteration-count: 20;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes hotair {
+    0% {
+      left: 0vw;
+      right: 0vw;
+      bottom: 3vw;
+    }
+    25% {
+      left: 20vw;
+      right: -10vw;
+      bottom: 0vw;
+    }
+    50% {
+      left: 35vw;
+      right: -15vw;
+      bottom: 3vw;
+    }
+    75% {
+      left: 50vw;
+      right: -10vw;
+      bottom: 0vw;
+    }
+    100% {
+      left: 65vw;
+      right: -5vw;
+      bottom: 3vw;
+    }
+  }
+  /* Standard syntax */
+  @keyframes hotair {
+    0% {
+      left: 0vw;
+      right: 0vw;
+      bottom: 3vw;
+    }
+    25% {
+      left: 20vw;
+      right: -10vw;
+      bottom: 0vw;
+    }
+    50% {
+      left: 35vw;
+      right: -15vw;
+      bottom: 3vw;
+    }
+    75% {
+      left: 50vw;
+      right: -10vw;
+      bottom: 0vw;
+    }
+    100% {
+      left: 65vw;
+      right: -5vw;
+      bottom: 3vw;
+    }
+  }
+  .bg-primary {
+      background-color:#4e375e !important;
+  }
+  .brand-icons {
+      width: 20%;
+      height: 20%;
+  }
+  .btn-primary:hover {
+      background-color: #2e193d;
+      border-color: #4e375e;
+  }
+  .btn-primary {
+      background-color: #4e375e;
+      border: 1px solid #2e193d;
+      box-shadow: -2px -2px 2px 0 rgba(51, 37, 61, 0.2), 2px 2px 4px 0 rgba(57, 46, 63, 0.2), -4px -4px 7px 0px rgba(57, 46, 63, 0.2), 4px 4px 3px 0px rgba(129, 116, 143, 0.4) !important;
+    -webkit-box-shadow: -2px -2px 2px 0 rgba(51, 37, 61, 0.2), 2px 2px 4px 0 rgba(57, 46, 63, 0.2), -4px -4px 7px 0px rgba(57, 46, 63, 0.2), 4px 4px 3px 0px rgba(129, 116, 143, 0.4) !important;
+  }
+  .card {
+      margin: 3vw;
+      background-color: #4e375e !important;
+      color: #fff;
+      box-shadow: -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.4) !important;
+      -webkit-box-shadow: -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.4) !important;
+  }
+  .card-header{
+    background-color: rgb(62, 34, 82);
+  }
+  .carousel {
+    background-image: url("images/personal-banner.png");
+    background-position: center;
+    background-size: 100%;
+  }
+  
+  .carousel-caption {
+    top: 10%;
+    padding: 0px 0px 0px 0px;
+    left: 20%;
+  }
+  
+  .carousel-caption h5 {
+    text-shadow: 0px 0px 3px #ffffff;
+    color: #ffffff;
+    font-size: 8vw;
+    letter-spacing: -0.5vw;
+    color: #4699f7;
+  }
+  
+  .carousel-caption p {
+    font-size: 6vw;
+    color: #5f595c;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    transition: 3s linear;
+  }
+  
+  .container-fluid .row {
+    align-items: flex-start;
+  }
+  
+  .container-fluid .col-md {
+    color: #4699f7;
+    min-height: 100px;
+  }
+  
+  .d-none {
+    display: inline-table !important;
+  }
+  
+  .display-4 {
+    color: #4e375e !important;
+    font-size: 2em;
+  }
+  
+  .col-md img {
+    max-width: 300px;
+    align-content: center;
+    overflow: hidden;
+  }
+.footer-item {
+    color: #ffffff !important;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.footer-nav {
+    background-color: #4e375e !important;
+    color: #ffffff !important;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0px -2px 5px rgba(117, 98, 64, 0.4);
+  }
+  
+  .container-fluid {
+    max-width: 100%;
+    left: auto;
+    right: auto;
+  }
+  
+  .container .foot {
+    position: sticky;
+    display: block;
+    top: 90%;
+    bottom: 10%;
+  }
+  
+  h1 {
+    color: rgb(255, 242, 217);
+    text-align: center;
+    font-size: 3em;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .fab {
+    font-size: 2em;
+    padding: 5px;
+    align-content: center;
+  }
+  
+  .jumbotron {
+    max-width: 100%;
+    left: auto;
+    right: auto;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .list-group-item {
+    all: none;
+    background-color: inherit !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+  
+  .list-group-item a {
+    color: #fff;
+  }
+  
+  .mr-auto, .mx-auto {
+    margin-left: auto !important;
+    margin-right: unset;
+  }
+  
+  .mt-n1 {
+    margin-top: -0.25rem !important;
+  }
+  
+  .navbar {
+    clear: both;
+  }
+  
+  .navbar-brand {
+    color: #4e375e !important;
+    font-weight: bolder;
+    letter-spacing: -0.1vw;
+    font-size: 1.5rem;
+  }
+  
+  .bg-pick {
+    background-color: #ffffff;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    color: #4e375e !important;
+    font-size: 1rem;
+  }
+  
+  .lead {
+    color:#4e375e !important;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+  }
+  
+  .text-hide {
+    height: 50px;
+  }
+  .the-biline{
+    color: #4e375e !important;
+    text-shadow: 0px 0px 1vw #ffffff;
+  }
+  .the-title{
+    text-shadow: 0px 0px 2vw #ffffff;
+    color: #4e375e !important;
+  }
+  ul.col-sm-6, .col-sm-6 {
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #4699f7;
+  }
+  
+  .jumbotron {
+    margin-top: 0%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .blingbling {
+      margin-right: auto;
+      margin-left: 20vw;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    .float-left {
+      float: none !important;
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  

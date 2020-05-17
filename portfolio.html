@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- FA code and Google Fonts for icons  below-->
+  <script src="https://kit.fontawesome.com/bf73769ee2.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Meta tags for personal page-->
+  <title>Ricardo Shaffer's Portfolio</title>
+  <meta name="description" content="Ricardo Shaffer's full-stack development portfolio page."><meta property="og:site_name">
+  <meta property="og:title" content="Ricardo Shaffer's Web-Dev Portfolio">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Ricardo Shaffer's full-stack development portfolio page.">
+  <meta name="twitter:title" content="Ricardo Shaffer's Portfolio">
+  <meta name="twitter:description" content="Ricardo Shaffer's full-stack development portfolio page.">
+</head>
+<main>
+<!-- Start of Main Body Content-->
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-pick">
+    <div class="container">
+            <a class="navbar-brand" href="index.html">
+              Ricardo Shaffer
+            </a>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav active mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <!--end of header-->
+  <section>
+  <div class="container-fluid">
+    <h1 style="text-shadow: -2px -2px 2px rgba(236, 229, 194, 0.2), 2px 2px 4px rgba(233, 216, 187, 0.4), -4px -4px 7px rgba(233, 216, 187, 0.4), 4px 4px 5px rgba(255, 255, 255, 0.2)!important;">portfolio</h1>
+    <div class="card">
+        <div class="card-header">
+            <a href="https://damp-everglades-23999.herokuapp.com/" target="_blank"><img src="assets/images/find-it-logo.svg" class="brand-icons" alt="find it mapping tool for crowdsourced retail info"></a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">a tool to visualize store inventory</h5>
+          <p class="card-text">a new way to visualize instant, crowdsourced data.  Functions by taking
+              Azure Maps API, showing local stores to users, if they're within 1000 yards, have the ability
+              to set store inventory of toilet paper.  The data is then recorded on MySQL, then retrieved
+              to overwrite map with a new icon depicting inventory level.
+              <ul>
+                  <li><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width="50px" alt="built using MySQL database, an Oracle product."> database stores inventory once stores are registered by user interaction</li>
+                  <li><i class="fab fa-node"></i>Built using Node.js, API protocols</li>
+                  <li><i class="fab fa-npm"></i>Utilizes PassportJS, Router, ExpressJS.</li>
+                  <li><i class="fab fa-github"></i> originally created on GitHub.</li>
+                  <li><i class="fab fa-microsoft"></i>built with Microsoft Azure Maps</li>
+              </ul>
+          </p>
+          <a href="https://damp-everglades-23999.herokuapp.com/" target="_blank" class="btn btn-primary">visit 'FindIt' ></a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            <a href="https://whitefauxtaxidermy.com/" target ="_blank"><img src="https://cdn.shopify.com/s/files/1/1865/9309/files/whitefauxtaxidermy_email_x50@2x.PNG" class="brand-icons" alt="White Faux Taxidermy"></a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">White Faux Taxidermy, eCommerce website</h5>
+          <p class="card-text">an eCommerce company, based in Utah, focusing on faux taxidermy animal wall mounts.</p>
+               <ul>
+                <li><i class="fab fa-etsy"></i>Etsy Organic & Sponsored Ads.</li>
+                <li><i class="fab fa-amazon"></i>Brand registration, VendorCentral, & SellerCentral</li>
+                <li><i class="fab fa-shopify"></i>main website hosted on Shopify.</li>
+                <li><i class="fab fa-mailchimp"></i>targeted remarketing emails & abandoned cart optimization</li>
+                <li><i class="fab fa-google"></i>Adwords, remarketing, analytics</li>
+              </ul>
+          <a href="https://whitefauxtaxidermy.com/" target ="_blank" class="btn btn-primary">visit White Faux Taxidermy ></a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            <a href="https://ricardoshaffer.github.io/Park-Finder/" target ="_blank"><img src="https://ricardoshaffer.github.io/Park-Finder/assets/forestr-logo-white.png" class="brand-icons" alt="find a day trip to a national park"></a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">a location-based service to find the closest national parks</h5>
+          <p class="card-text">Utilizing NPS API, either geolocation or IP tracing, the app locates the 10 closest national parks, includes
+               'as the crow flies' distance, and a general description of the park with an image.</p>
+               <ul>
+                <li><i class="fab fa-github"></i>Hosted on GitHub.</li>
+                <li><i class="fas fa-map-marker-alt"></i> utilizes geolocation js and IPapi.io</li>
+                <li><i class="far fa-map"></i> displayed using MapQuest API.</li>
+              </ul>
+          <a href="https://ricardoshaffer.github.io/Park-Finder/" target ="_blank" class="btn btn-primary">visit Park Finder ></a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            <a href="https://pupato.com/" target ="_blank"><img src="assets/images/pupato-logo-dog-treats.png" class="brand-icons" alt="Pupato.com logo, cat & dog treats"></a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Pupato: Cat & Dog Treats</h5>
+          <p class="card-text">a personal, operating ecommerce website focusing on pet treats to bring familiarity & 'zen' during stressful events.</p>
+               <ul>
+                <li><i class="fab fa-shopify"></i> built utilizing Shopify Cart.</li>
+                <li><i class="fab fa-adobe"></i> graphics designed on Adobe Illustrator & Photoshop</li>
+                <li><i class="fab fa-mailchimp"></i>targeted remarketing emails & abandoned cart optimization</li>
+                <li><i class="fab fa-google"></i>Adwords, remarketing, analytics</li>
+              </ul>
+          <a href="https://pupato.com/" target ="_blank" class="btn btn-primary">visit Pupato.com ></a>
+        </div>
+      </div>
+  </div>
+  </section>
+</main>
+<footer>
+    <nav class="navbar fixed-bottom navbar-expand-lg footer-nav">
+        
+        <div class="container">
+          <ul class="navbar-nav active mr-auto">
+            <li class="nav-item">
+                <a class="footer-item" href="index.html">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="footer-item" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="footer-item" href="contact.html">Contact</span></a>
+            </li>
+          </ul>
+      </div>
+     </nav>
+</footer>
+</body>
+</html>

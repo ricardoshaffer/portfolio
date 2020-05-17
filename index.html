@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="greeter.ts"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- FA code and Google Fonts for icons  below-->
+  <script src="https://kit.fontawesome.com/bf73769ee2.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Meta tags for personal page-->
+  <title>Ricardo Shaffer's Portfolio</title>
+  <meta name="description" content="Ricardo Shaffer's full-stack development portfolio page."><meta property="og:site_name">
+  <meta property="og:title" content="Ricardo Shaffer's Web-Dev Portfolio">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Ricardo Shaffer's full-stack development portfolio page.">
+  <meta name="twitter:title" content="Ricardo Shaffer's Portfolio">
+  <meta name="twitter:description" content="Ricardo Shaffer's full-stack development portfolio page.">
+  <script>
+    $('#carousel-inner').on('slid.bs.carousel', function (e) {
+  $('#carousel-inner').carousel('1') // Will slide to the slide 2 as soon as the transition to slide 1 is finished
+})
+     $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+    });
+    $(function () {
+    $('[data-toggle="popover"]').popover('enable')
+    });
+  </script>
+</head>
+<main>
+<!-- Start of Main Body Content-->
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-pick">
+    <div class="container">
+            <a class="navbar-brand" href="#">
+              Ricardo Shaffer
+            </a>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav active mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <!--end of header-->
+
+  <div id="carouselHome" class="carousel slide" data-ride="carousel" data-wrap="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">  
+        <img src="assets/images/blank-slide-personal.png" class="d-block w-100" alt="mountain landscape illustration with hot air balloon floating.">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="balloon" data-toggle="tooltip" data-html="true" title="let's make your site rise."></div>
+          <h5 class="the-title">hello, I'm Ricardo.</h5>
+          <p class="the-biline">full-stack dev.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <section>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h2 class="display-4">About Me</h2>
+          <p class="lead">hello, I'm Ricardo Shaffer, a web & graphic designer in Baltimore, Maryland.  Originally from Arizona,
+            I have also lived in Jocotepec, Jalisco, Mexico; California, & Utah.  I received a Bachelor's degree of Science in Biology from
+            Utah Valley University, where I researched germline mutations effect on prostate cancer.<br>The research experience has helped my creativity in illustrating abstract concepts & troubleshooting experiments and projects.
+          </p>
+        </div>
+      </div>
+      </section>
+  <section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md">
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header"><i class="fab fa-bootstrap" title="Bootstrap Website Development"></i><i class="fab fa-html5" title="HTML 5 Development"></i><i class="fab fa-css3-alt" title="CSS 3 Development"></i></div>
+          <div class="card-body">
+            <h5 class="card-title">Website Development</h5>
+            <p class="card-text">
+              <ul>
+                <li>Bootstrap</li>
+                <li>HTML 5</li>
+                <li>CSS 3</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header"><i class="fab fa-adobe" title="Adobe Illustrator & Animate"></i></div>
+          <div class="card-body">
+            <h5 class="card-title">Illustrations</h5>
+            <ul>
+              <li>Adobe Illustrator</li>
+              <li>Adobe Animate</li>
+            </ul>
+            <p class="card-text"><a href="https://pupato.com" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0251/2525/7269/files/Bandit-Cat-Ambush-Illustration-Calming-Treats.png" alt="ecommerce website designed by Ricardo Shaffer, Pupato.com"></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header"><i class="fab fa-js" title="Javascript"></i><i class="fab fa-github" title="GitHub"></i><i class="fab fa-npm"></i><i class="fab fa-node"></i></div>
+          <div class="card-body">
+            <h5 class="card-title">Coding</h5>
+            <p class="card-text">Skill mastery:
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%" title="Skill mastery with Javascript & GitHub: 80%"></div>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+<!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> -->
+<!-- <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+  Tooltip with HTML
+</button> -->
+</main>
+<footer>
+    <nav class="navbar fixed-bottom navbar-expand-lg footer-nav">
+        
+        <div class="container">
+          <ul class="navbar-nav active mr-auto">
+            <li class="nav-item">
+                <a class="footer-item" href="index.html">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="footer-item" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="footer-item" href="contact.html">Contact</span></a>
+            </li>
+          </ul>
+      </div>
+     </nav>
+</footer>
+</body>
+</html>
